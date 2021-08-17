@@ -14,11 +14,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
 }
 article {
   width: 330px;
-  margin-bottom: 10px;
+  margin: 20px 0 10px 0;
 }
 article .type {
   padding: 30px 47px;
@@ -71,4 +70,29 @@ article button:hover {
   background-color: transparent;
   color: hsl(0, 0%, 95%);
   border: 2px solid hsl(0, 0%, 95%);
+}
+.attribution {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 845px) {
+  article {
+    width: 820px;
+    display: flex;
+  }
+  article p {
+    margin-bottom: 45px;
+  }
+  article .type {
+    height: 400px;
+    padding: 30px 33px;
+  }
+  article .sedans {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+  article .luxury {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 8px;
+  }
 }
