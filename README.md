@@ -23,11 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-design.png)
+![](./screenshots/mobile-design.png)
 
 ### Links
 
-- Solution URL: https://erwinruiz.github.io/3-column-preview-card-component/
+- Solution URL: [Click here](https://erwinruiz.github.io/3-column-preview-card-component/)
 
 ## My process
 
