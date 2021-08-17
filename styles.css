@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+article {
+  width: 330px;
+  margin-bottom: 10px;
+}
+article .type {
+  padding: 30px 47px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+article p {
+  line-height: 1.8;
+}
+article .sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+article .sedans button {
+  color: hsl(31, 77%, 52%);
+}
+article .suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+article .suvs button {
+  color: hsl(184, 100%, 22%);
+}
+article .luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+article .luxury button {
+  color: hsl(179, 100%, 13%);
+}
+article h1 {
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+article p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+article button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 70px;
+  cursor: pointer;
+}
+article button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
